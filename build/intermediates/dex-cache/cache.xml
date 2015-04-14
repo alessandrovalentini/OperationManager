@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Admin\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.0\support-annotations-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.0-f3b30af1b267a5e2b7f1a39bc5df5c047c80a3d5.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\libs\internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.0-302df3e9c89f02d4d4f07f5d1ff3a9db15d97102.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\pre-dexed\debug\classes-1059a650078fd0aa66eb4ca84520041875f745e2.jar" />
+    </item>
+    <item
+        jar="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.0\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="C:\Users\Admin\AndroidStudioProjects\OperationManager\app\build\intermediates\pre-dexed\debug\classes-95e9867de8cb7442d117e9990e4cf95c06e7c660.jar" />
+    </item>
+
+</items>

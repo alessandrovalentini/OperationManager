@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/text_interventionDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:layout_margin="5dp"
+        android:hint="@string/description"/>
+
+    <TextView
+        android:id="@+id/text_contactDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:hint="@string/selectContact"/>
+
+    <TextView
+        android:id="@+id/text_deadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:layout_margin="5dp"
+        android:hint="@string/dateFormat"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+        <ImageButton
+            android:id="@+id/button_call"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_action_call"
+            android:background="@android:color/holo_green_light"
+            />
+
+        <ImageButton
+            android:id="@+id/button_nav"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:src="@drawable/ic_action_directions"
+            android:background="@android:color/holo_blue_light"
+            />
+
+        <ImageButton
+            android:id="@+id/button_close"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="@string/close"
+            android:src="@drawable/ic_action_cancel"
+            android:background="@android:color/holo_red_light"/>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

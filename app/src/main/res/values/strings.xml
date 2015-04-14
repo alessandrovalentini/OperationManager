@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OperationManager</string>
+    <string name="welComeMessage">Benvenuto! \nInserisci i tuoi dati per accedere</string>
+    <string name="action_settings">Impostazioni</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="username">Nome Utente</string>
+    <string name="password">Password</string>
+    <string name="loginError">Messaggio di errore</string>
+    <string name="loginButtonLabel">Accedi</string>
+    <string name="call">Chiama</string>
+    <string name="close">Chiudi</string>
+    <string name="all">Tutti</string>
+    <string name="selected">Selezionati</string>
+    <string name="map">Mappa</string>
+    <string name="language">Lingua</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="defaultLanguage">Inglese</string>
+    <string name="manualLanguageTitle">Lingua Manuale</string>
+    <string name="manualLanguageSummary">Non utilizzare la stessa lingua del sistema</string>
+	<string name="selectLanguage">Seleziona la lingua</string>
+	<string name="defaultLocationTitle">Posizione predefinita</string>
+	<string name="defaultLocationSummary">Posizione utilizzata nel caso il GPS non sia disponibile</string>
+	<string name="newIntervention">Nuovo</string>
+	<string name="title">Titolo</string>
+	<string name="noContactSelected">Nessun contatto selezionato</string>
+	<string name="selectContact">Contatto</string>
+	<string name="dateFormat">GG/MM/AAAA</string>
+    <string name="timeFormat">hh:mm</string>
+	<string name="chooseDate">Data</string>
+	<string name="chooseTime">Ora</string>
+	<string name="description">Descrizione</string>
+	<string name="add">Aggiungi</string>
+	<string name="error">Errore</string>
+	<string name="dataMissing">Dati incompleti</string>
+	<string name="delete">Cancella</string>
+	<string name="goToNav">Naviga</string>
+	<string name="deleteMessage">Questo elemento verrà rimosso definitivamente!</string>
+    <string name="title_activity_add">Aggiungi Attività</string>
+    <string name="drawPath">Percorso</string>
+    <string name="selectZoomLevel">Livello di ingrandimento mappa</string>
+    <string name="notEnoughPointsMessage">
+        La mappa non contiene un numero sufficiente di punti per disegnare un percorso. Nessun intervento
+        è stato selezionato oppure gli interventi selezionati non contengono un indirizzo!
+    </string>
+    <string name="warning">Attenzione</string>
+    <string name="selectRange">Seleziona distanza allarme</string>
+</resources>

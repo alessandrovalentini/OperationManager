@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="manual_language"
+        android:summary="@string/manualLanguageSummary"
+        android:title="@string/manualLanguageTitle" />
+
+    <ListPreference
+        android:defaultValue="@string/defaultLanguage"
+        android:dependency="manual_language"
+        android:dialogTitle="@string/selectLanguage"
+        android:entries="@array/language_entries"
+        android:entryValues="@array/language_values"
+        android:key="language"
+        android:title="@string/selectLanguage" />
+
+    <EditTextPreference
+        android:name="defaultLocation"
+        android:enabled="true"
+        android:key="defaultLocation"
+        android:defaultValue=""
+        android:persistent="true"
+        android:title="@string/defaultLocationTitle"
+        android:summary="@string/defaultLocationSummary"/>
+
+    <dialogs.NumberPickerPreference
+        android:key="zoom_level"
+        android:title="@string/selectZoomLevel"
+        android:defaultValue="13"/>
+
+
+    <ListPreference
+        android:key="alarm_range"
+        android:dialogTitle="@string/selectRange"
+        android:entries="@array/distance_entries"
+        android:entryValues="@array/distance_values"
+        android:title="@string/selectRange" />
+
+</PreferenceScreen>
